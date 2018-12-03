@@ -12,11 +12,12 @@
     <artifactId>ch6-3</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>ch6-3-hello-service</module>
         <module>ch6-3-eureka-server</module>
+        <module>ch6-3-hello-service</module>
         <module>ch6-3-hystrix-dashboard</module>
         <module>ch6-3-provider-service</module>
         <module>ch6-3-turbine</module>
+        <module>ch6-3-hystrix-exception-service</module>
     </modules>
 
     <properties>
