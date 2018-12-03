@@ -1,0 +1,24 @@
+server:
+  port: 8761
+  ssl:
+    enabled: true
+    key-store: classpath:server.p12
+    key-store-password: tophotoart
+    key-store-type: PKCS12
+    key-alias: server
+eureka:
+  instance:
+    hostname: localhost
+    secure-port: ${server.port}
+    secure-port-enabled: true
+    non-secure-port-enabled: false
+    home-page-url: https://${eureka.instance.hostname}:${server.port}/
+    status-page-url: https://${eureka.instance.hostname}:${server.port}/
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: https://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+    enable-self-preservation: false
