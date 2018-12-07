@@ -11,6 +11,6 @@ import java.util.List;
  */
 @FeignClient(name = "sc-provider-service")
 public interface ProviderService {
-    @RequestMapping(value = "/getDashboard",method = RequestMethod.GET)
+    @RequestMapping(value = "/getDashboard", method = RequestMethod.GET)
     public List<String> getProviderData();
 }
