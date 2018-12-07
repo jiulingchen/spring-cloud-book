@@ -16,6 +16,7 @@
         <module>ch6-4-hystrix-cache</module>
         <module>ch6-4-provider-service</module>
         <module>ch6-4-collapsing</module>
+        <module>ch6-4-hystrix-thread-context</module>
     </modules>
 
 
