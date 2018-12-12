@@ -36,6 +36,7 @@
         <module>ch6-2</module>
         <module>ch6-3</module>
         <module>ch6-4</module>
+        <module>ch7-1</module>
     </modules>
 
     <parent>
