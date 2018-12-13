@@ -38,6 +38,10 @@
         <module>ch6-4</module>
         <module>ch7-1</module>
         <module>ch7-2</module>
+        <module>ch7-3</module>
+        <module>ch8-1</module>
+        <module>ch8-2</module>
+        <module>ch8-3</module>
     </modules>
 
     <parent>
