@@ -43,6 +43,9 @@
         <module>ch8-2</module>
         <module>ch8-3</module>
         <module>ch8-4</module>
+        <module>ch8-5</module>
+        <module>ch8-6</module>
+        <module>ch8-7</module>
     </modules>
 
     <parent>
