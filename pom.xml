@@ -46,6 +46,16 @@
         <module>ch8-5</module>
         <module>ch8-6</module>
         <module>ch8-7</module>
+        <module>ch10-1</module>
+        <module>ch11-1</module>
+        <module>ch11-2</module>
+        <module>ch11-3</module>
+        <module>ch12-1</module>
+        <module>ch12-2</module>
+        <module>ch12-3</module>
+        <module>ch12-4</module>
+        <module>ch12-5</module>
+        <module>ch12-6</module>
     </modules>
 
     <parent>
